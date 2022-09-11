@@ -1,0 +1,64 @@
+html body {
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#menu_ul {
+	width: 17vw;
+	margin-top: 0px;
+	padding: 0px;
+	font-size: 2vw;
+	text-align: center;
+	list-style: none;
+}
+
+#side_menu {
+	height: 100vh;
+	width: 17vw;
+	margin: 0px;
+	background-color: #FF7725;
+	color: white;
+	float: left;
+}
+
+#menu_feader {
+	height:15vh;
+	width: 17vw;
+	color: white;
+	background-color: black;
+}
+
+#menu_title {
+    padding-top: 10px;
+    display: block;
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+#login_user {
+    margin-top: 10px;
+    display: block;
+    font-size: 1.1vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu {
+	width: 17vw;
+	padding: 13px 0px;
+}
+
+.menu:hover {
+	width: 17vw;
+	padding: 6px 0px;
+	color: red;
+	font-size: 2.7vw;
+	background-color: #dc143c;
+}

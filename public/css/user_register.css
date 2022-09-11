@@ -1,0 +1,95 @@
+header {
+    height: 10vh;
+    width: 83vw;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bold;
+    line-height: 10vh;
+}
+table {
+	width: 70vw;
+    text-align: center;
+    border-collapse: collapse;
+    border: 7px #fbc27c solid;
+    border-radius: 5px;
+}
+
+th {
+    background-color: #80ce6d;
+    height: 50px;
+    width: 20vw;
+    border: white 3px solid;
+}
+
+td {
+    background-color: #f5eea7;
+    height: 40px;
+    width: 50vw;
+    border: white 3px solid;
+}
+
+textarea.form{
+    height: 60px;
+}
+
+#back_btn {
+	width: 10vw;
+    height: 40px;
+    color: black;
+    transition: background-color .3s;
+    background-color: silver;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 2px;
+}
+
+#back_btn:hover {
+	color: white;
+    background-color: green;
+}
+
+#register_btn {
+	width: 10vw;
+    height: 40px;
+    color: white;
+    transition: background-color .3s;
+    background-color: black;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 2px;
+}
+
+#register_btn:hover {
+    background-color: blue;
+}
+
+.screen {
+    width: 100vw;
+    height: 100vh;
+}
+
+.main {
+    width: 83vw;
+    height: 100vh;
+    float: right;
+}
+
+.form {
+    width: 35vw;
+    height: 25px;
+    border-radius: 5px;
+    border: solid 2px #fdd6a6;
+}
+
+.tr_large {
+    height: 100px;
+}
+
+.btns {
+    margin-top:8px;
+}
+
+.msg {
+    margin-left: 130px;
+    color: red;
+}

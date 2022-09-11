@@ -1,0 +1,191 @@
+header {
+    height: 10vh;
+    width: 83vw;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bold;
+    line-height: 10vh;
+}
+
+table {
+    border: 5px #fbc27c solid;
+}
+
+thead {
+    border-bottom: 5px #fbc27c solid;
+}
+
+tbody {
+    height:65vh;
+    background-color: #f5eea7;
+}
+
+th {
+    background-color: #80ce6d;
+    height: 50px;
+}
+
+td {
+    background-color: #f5eea7;
+    height: 40px;
+}
+
+table, thead {
+    width: 80vw;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+thead, tbody {
+    display: block;
+    overflow-y: scroll;
+}
+
+th, td {
+    border: 2px solid #ffffff;
+}
+
+#user_search {
+    width: 20vw;
+    height: 25px;
+    border-radius: 5px;
+}
+
+#search_btn {
+    width: 4vw;
+    height: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: silver;
+    transition: background-color .3s;
+    color: white;
+    margin: 2px;
+}
+
+#search_btn:hover {
+    background-color: green;
+}
+
+#clear_btn {
+    width: 5vw;
+    height: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: silver;
+    transition: background-color .3s;
+    color: white;
+    margin: 2px;
+}
+
+#clear_btn:hover {
+    background-color: green;
+}
+
+#creat_btn {
+    width: 10vw;
+    height: 40px;
+    color: white;
+    transition: background-color .3s;
+    background-color: black;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 2px;
+    float: right;
+}
+
+#creat_btn:hover {
+    background-color: blue;
+}
+
+.screen {
+    width: 100vw;
+    height: 100vh;
+}
+
+.main {
+    width: 83vw;
+    height: 100vh;
+    float: right;
+}
+
+.height_10 {
+    height: 7vh;
+}
+
+.search {
+    float: left;
+    margin: 10px 50px;
+    height: 8vh;
+    width: 78vw;
+}
+
+.select {
+    height: 30px;
+    width: 170px;
+    border-radius: 5px;
+}
+
+.margin-l_30 {
+    margin-left: 30px;
+}
+
+.edit_btn {
+    height: 40px;
+    margin: 2px;
+    background-color: black;
+    transition: background-color .3s;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.edit_btn:hover {
+    background-color: blue;
+}
+
+
+.delete_btn {
+    height: 40px;
+    margin: 2px;
+    background-color: red;
+    transition: background-color .3s;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.delete_btn:hover {
+    background-color: pink;
+}
+
+.m_left {
+    margin-left: 5px;
+}
+
+.t_left {
+    text-align: left;
+}
+
+.width_2 {
+    width: 2vw;
+}
+
+.width_3 {
+    width: 3vw;
+}
+
+.width_7 {
+    width: 7vw;
+}
+
+.width_8 {
+    width: 8vw;
+}
+
+.width_17 {
+    width: 17vw;
+}
+
+.width_27 {
+    width: 27vw;
+}

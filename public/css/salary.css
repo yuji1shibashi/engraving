@@ -1,0 +1,72 @@
+header {
+    height: 10vh;
+    width: 83vw;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bold;
+    line-height: 10vh;
+}
+
+table {
+    border: 5px #fbc27c solid;
+}
+
+thead {
+    border-bottom: 5px #fbc27c solid;
+}
+
+tbody {
+    height:50vh;
+    background-color: #f5eea7;
+}
+
+th {
+    background-color: #80ce6d;
+    height: 50px;
+}
+
+td {
+    background-color: #f5eea7;
+    height: 40px;
+    width: 50%;
+}
+
+table, thead {
+    width: 50vw;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid #ffffff;
+}
+
+#user {
+    width: 12vw;
+}
+
+.screen {
+    width: 100vw;
+    height: 100vh;
+}
+
+.main {
+    width: 83vw;
+    height: 100vh;
+    float: right;
+}
+.select_box {
+    border-radius: 2px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 5vw;
+}
+
+.m_left {
+    margin-left: 50px;
+}
+
+.search_eria {
+    width: 50vw;
+    margin-left: 17vw;
+}

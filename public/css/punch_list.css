@@ -1,0 +1,91 @@
+header {
+    height: 10vh;
+    width: 83vw;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bold;
+    line-height: 10vh;
+}
+
+table {
+	border: 5px #fbc27c solid;
+}
+
+thead {
+	border-bottom: 5px #fbc27c solid;
+}
+
+tbody {
+	height:60vh;
+	background-color: #f5eea7;
+}
+
+th {
+	background-color: #80ce6d;
+}
+
+td {
+	background-color: #f5eea7;
+}
+
+table, thead {
+	width: 80vw;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+thead, tbody {
+	display: block;
+	overflow-y: scroll;
+}
+
+th, td {
+	border: 2px solid #ffffff;
+}
+
+.screen {
+	width: 100vw;
+	height: 100vh;
+}
+
+.main {
+	width: 83vw;
+	height: 100vh;
+	float: right;
+}
+
+.height_10 {
+	height: 10vh;
+}
+
+.search {
+	float: left;
+	margin: 10px 50px;
+	height: 10vh;
+}
+
+.month {
+	font-size: 2vw;
+}
+
+.select {
+	height: 30px;
+	width: 170px;
+	border-radius: 5px;
+}
+
+.margin-l_30 {
+	margin-left: 30px;
+}
+
+.thead {
+	height: 50px;
+}
+
+.width_7 {
+	width: 7vw;
+}
+
+.width_12 {
+	width: 12vw;
+}

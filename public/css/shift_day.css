@@ -1,0 +1,365 @@
+
+body {
+    background-color: white;
+    margin: 0;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+#main {
+  width: 77%;
+  margin: 0 2% 0 3%;
+  height: 100vh;
+  display: inline-block;
+  float: right;
+}
+
+#day-box {
+  width: 97%;
+  height: 10vh;
+  padding: 20px 0px 20px 30px;
+  background: white;
+  display: inline-block;
+}
+
+#day-display {
+  display: inline-block;
+  padding: 11px 15px;
+  position: relative;
+  color: #4a4a4a;
+  top: -25px;
+  border: solid 3px #e8e8e8;
+  border-radius: 3px;
+  background: #e8e8e8;
+}
+
+.icon-right-arrow {
+  content: url(../img/caret-right-solid-blue3.svg);
+}
+
+.icon-left-arrow {
+  content: url(../img/caret-left-solid-blue3.svg);
+}
+
+.day-arrow-icon {
+  width: 20px;
+  height: 64px;
+  line-height: 0;
+  color: #cacaca;
+  padding: 0 13px;
+  /* fill: white; */
+}
+
+#add-new-shift-box {
+  /* background:rgba(204, 240, 245, 0.80); */
+  width: 430px;
+  height: 80px;
+  margin-right: 20px;
+  float: right;
+  display: inline-block;
+}
+
+.add-new-shift-inbox {
+  width: 230px;
+  height: 40px;
+  display: inline-block;
+  position: relative;
+  /* background:rgba(228, 248, 250, 0.9); */
+  /* border: solid 1px black; */
+  float: left;
+}
+
+
+.add-new-shift-btn-box {
+    position: relative;
+    display: inline-block;
+    width: 180px;
+    height: 80px;
+    background: white;
+}
+
+#add-new-member-box {
+    width: 400px;
+    height: 80px;
+    margin-right: 20px;
+    float: right;
+    display: inline-block;
+}
+
+#add-new-member-inbox {
+    width: 210px;
+    height: 80px;
+    padding-top: 33px;
+    display: inline-block;
+    float: left;
+    position: relative;
+}
+
+#member-select {
+    width: 180px;
+}
+
+.add-new-member-btn-box {
+    position: relative;
+    display: inline-block;
+    width: 180px;
+    height: 80px;
+    /* padding-top: 13px; */
+}
+
+/* .add-member-btn {
+    display: inline-block;
+    width: 110px;
+    height: 68px;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    margin: 0;
+    padding: 0 20px;
+    text-align: center;
+    line-height: 68px;
+    border: solid 5px #dadada;
+  } */
+
+#add-user-btn {
+  display: inline-block;
+  width: 110px;
+  height: 68px;
+  color: white;
+  border-radius: 3px;
+  text-decoration: none;
+  margin: 0;
+  padding: 0 20px;
+  text-align: center;
+  line-height: 68px;
+  border: solid 5px #dadada;
+}
+
+.add-btn {
+    display: inline-block;
+    width: 110px;
+    height: 68px;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    margin: 0;
+    padding: 0 20px;
+    text-align: center;
+    line-height: 68px;
+    border: solid 5px #dadada;
+  }
+
+#shift-day-box {
+  width: 90%;
+  height: 5vh;
+  margin-left: 55px;
+  /* border: solid 1px gray; */
+  background: white;
+}
+
+.shift-day-inbox {
+  height: 35px;
+  width: 100px;
+  /* background: gray; */
+  display: inline-block;
+  font-size: 13px;
+  color: black;
+  line-height: 35px;
+  text-align: center;
+  /* vertical-align:top; */
+  /* white-space:normal; */
+  /* border: dotted 1px black; */
+}
+
+#shift-schedule-display {
+  white-space: nowrap;
+  overflow-x: auto;
+  width: 100%;
+  height: 70vh;
+  background-color: white;
+  overflow: auto;
+  border-bottom: 3px solid #299575;
+  border-top: 3px solid #299575;
+}
+
+#shift-schedule-display::-webkit-scrollbar {
+    display: none;
+}
+
+#shift-schedule-box {
+  width: 100%;
+  height: 720px;
+  background-color: white;
+}
+
+
+#shift-schedule-time-box {
+  display: inline-block;
+  /* height: inherit; */
+  float: left;
+  padding: 45px 5px 5px 5px ;
+  width: 45px;
+  /* border: solid 1px gray; */
+  background: white;
+}
+
+#shift-schedule-time-box ul{
+  font-size: 12px;
+  color: gray;
+  list-style: none;
+  padding-inline-start: initial;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  /* text-align: center; */
+}
+
+#shift-schedule-time-box li{
+  margin-bottom: 7px;
+  height: 8px;
+  text-align: right;
+  /* border-bottom: 1px dotted rgba(128, 128, 128, 0.495); */
+  /* color: rgba(128, 128, 128, 0.495); */
+}
+
+.modal-box {
+  white-space:normal;
+  position: relative;
+  width: 106px;
+  height: 100%;
+  background-color: white;
+  /* padding: 5px; */
+  border-radius: 5px;
+  margin: 0 0 0 10px;
+  display: inline-block;
+}
+
+.modal-inbox {
+  background-color: #befff2b5;
+  position: relative;
+  display: inline-block;
+  /* background-color: white; */
+  /* border-radius: 3px; */
+  width: 30px;
+  height: 100%;
+}
+
+.normal-schedule-box {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.68);
+  border-radius: 3px;
+  border: 1px solid gray;
+}
+
+.freeze-schedule-box {
+    position: absolute;
+    background-color: rgb(229, 232, 232);
+    border-radius: 3px;
+    border: 1px solid gray;
+  }
+
+.normal-schedule-box:before {
+  position: absolute;
+  content: '×';
+  top: -6px;
+  right: 2px;
+}
+
+#footer-btns-box {
+  width: 100%;
+  height: 10vh;
+  /* background: rgba(128, 128, 128, 0.495); */
+}
+
+.description {
+  width: 100px;
+  height: 16px;
+  font-size: 10px;
+  text-align: center;
+  color: rgba(68, 68, 68, 0.80);
+}
+.description span{
+  margin: 0 7px 0 4px;
+}
+
+#done-btn {
+  float: right;
+}
+
+.gray {
+  background: #9c9c9cc9;
+}
+
+.pink {
+  background: #EE7785;
+}
+
+.blue {
+  background: #84B1ED;
+}
+
+.footer-btn {
+  display: inline-block;
+  width: 150px;
+  height: 45px;
+  color: white;
+  border-radius: 3px;
+  text-decoration: none;
+  margin: 32px 40px 0 0;
+  padding: 0 10px;
+  text-align: center;
+  line-height: 45px;
+  border: solid 5px #dadada;
+}
+
+/* ネットで拾ってきたドロップダウンCSS */
+.custom-dropdown {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.custom-dropdown select {
+  background-color: #84B1ED;
+  color: #fff;
+  font-size: inherit;
+  padding: .5em;
+  padding-right: 2.5em;
+  border: 0;
+  margin: 0;
+  border-radius: 3px;
+  text-indent: 0.01px;
+  text-overflow: '';
+  -webkit-appearance: button; /* hide default arrow in chrome OSX */
+}
+
+.custom-dropdown::before,
+.custom-dropdown::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+}
+
+.custom-dropdown::after { /*  Custom dropdown arrow */
+  content: "\25BC";
+  height: 1em;
+  font-size: .625em;
+  line-height: 1;
+  right: 1.2em;
+  top: 50%;
+  margin-top: -.5em;
+}
+
+.custom-dropdown::before { /*  Custom dropdown arrow cover */
+  width: 2em;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+
+.hide {
+    display: none;
+}

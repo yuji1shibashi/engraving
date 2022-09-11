@@ -1,0 +1,346 @@
+body {
+	background-color: #f4f4f4;
+}
+
+.screen {
+    width: 100vw;
+    height: 100vh;
+}
+
+/*グリッド設定*/
+.main {
+  	display: grid;
+	gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 3vw 10vh 20vh 15vh 5vh auto;
+}
+.item {
+	padding: 10px;
+	border-radius: 8px;
+	border: 3px solid #ccc;
+	background-color: #ffffff;
+}
+
+/*itemの個別設定*/
+.header {
+    height: 10vh;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bold;
+    line-height: 10vh;
+	border:none;
+	background-color: initial;
+  	grid-column: 4;
+  	grid-row: 1;
+}
+.date {
+	grid-column: 3 / 6;
+	grid-row: 2;
+	text-align: center;
+	line-height: 10vh;
+	font-size: 3vw;
+	border:none;
+	background-color: initial;
+}
+.time {
+	grid-column: 3 / 6;
+	grid-row: 3;
+	text-align: center;
+	line-height: 20vh;
+	font-size: 7vw;
+}
+#time_display {
+	width: 100%;
+	height: 100%;
+}
+.info {
+ 	grid-column: 3 / 6;
+  	grid-row: 4;
+	font-size: 1vw;
+	overflow: scroll;
+}
+
+.info_btn {
+	grid-column: 6 / 6;
+  	grid-row: 4;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    font-size: 80px;
+    line-height: 80px;
+    border: 0px solid #f4f4f4;
+    background-color: initial;
+}
+
+#info_btn {
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    font-size: 80px;
+    line-height: 80px;
+}
+
+.info_display {
+	margin: 0;
+	word-wrap: break-word;
+}
+.attendance_btn {
+	grid-column: 3;
+	grid-row: 5;
+	border:none;
+	background-color: initial;
+	text-align: center;
+}
+.symptons_select {
+	grid-column: 4;
+	grid-row: 5;
+	text-align: center;
+	background-color: initial;
+	border:none;
+}
+.symptons_select select{
+	height: 5vh;
+    width: 10vw;
+    border-radius: 5px;
+    font-size: 1vw;
+}
+.break_btn {
+	grid-column: 5;
+	grid-row: 5;
+	border:none;
+	background-color: initial;
+	text-align: center;
+}
+.shift {
+	grid-column: 2 / 7;
+	grid-row: 6;
+	font-size: 1vw;
+	border:none;
+	background-color: initial;
+}
+.shift_time, .time_table{
+	border-left: none;
+	border-right: none;
+}
+.shift_table {
+	border-collapse: collapse;
+	width: 100%;
+    border: 5px #fbc27c solid;
+    background-color: #f5eea7;
+}
+th {
+	background-color: #80ce6d;
+	position:sticky;
+}
+th, td {
+	border: 2px solid #ffffff;
+}
+thead {
+    border-bottom: 5px #fbc27c solid;
+}
+thead, tbody {
+	table-layout: fixed;
+    display: block;
+    overflow-y: scroll;
+}
+.time_table {
+	width: 1.6129vw;
+	height: 1vh;
+	letter-spacing: -2px;
+}
+.estimated {
+	background-color: #FF7725;
+}
+.estimated_start {
+	background:linear-gradient(90deg,#f5eea7 0%,#f5eea7 50%,#FF7725 50%,#FF7725 100%);
+}
+.estimated_end {
+	background:linear-gradient(90deg,#FF7725 0%,#FF7725 50%,#f5eea7 50%,#f5eea7 100%);
+}
+.name {
+	width: 7vw;
+	border: 2px solid #ffffff;
+}
+.symptons {
+	width: 4vw;
+	border: 2px solid #ffffff;
+}
+.healthy {
+	background-color: #afeeee;
+}
+.sick {
+	background-color: #4b0082;
+}
+
+/*その他*/
+.btn {
+	font-weight: bold;
+	width: 10vw;
+	height: 5vh;
+	background-color: black;
+	transition: background-color .5s;
+	color: white;
+	font-size: 1.5vw;
+}
+.btn:hover {
+	background-color: blue;
+}
+.btn:disabled {
+	background-color: #ccc;
+}
+.invisible {
+	display: none;
+}
+
+/*勤怠状況による色分け*/
+.not_attending {
+	background-color: #ffffff;
+}
+.attended {
+	background-color: #3dc33d;	
+}
+.late {
+	background-color: #ffff00;	
+}
+.absence {
+	background-color: #ff4040;	
+}
+.break {
+	background-color: #87b2ff;	
+}
+.out {
+	background-color: #ababab;
+}
+.poor_health {
+	background-color: #808080;	
+}
+
+/*モーダル*/
+.modalwin {
+    position: fixed;
+    width: 600px;
+    background-color: #f5eea7;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 #000;
+    z-index: 9998;
+}
+
+.modalwin dl {
+    padding: 0px 10px;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.modalwin h1 {
+    background: #80ce6d;
+    color: #000;
+    padding: 20px;
+	padding-left: 30px;
+    border-radius: 5px 5px 0 0;
+    font-size: 25px;
+    font-weight: bold ;
+    margin-top: 0;
+    text-align: center;
+}
+
+.modalwin-contents {
+    padding: 5px;
+	height: 250px;
+}
+
+.fortune_box {
+	border: 5px #fbc27c solid;
+	width: 500px;
+	background-color: #fff;
+	padding: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	word-wrap: break-word;
+}
+
+.shift_box {
+	border: 5px #fbc27c solid;
+	width: 300px;
+	background-color: #fff;
+	padding: 5px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.info_box {
+	border: 5px #fbc27c solid;
+    width: 300px;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info_text {
+	border: 5px #fbc27c solid;
+    width: 500px;
+    height: 124px;
+    background-color: #fff;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    overflow-y: auto;
+    text-align: left;
+}
+
+.thank {
+	margin-top: 35px;
+    font-size: 18px;
+}
+
+#shade {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #999;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+#win_note {
+	width: 500px;
+	height: 200px;
+	display: block;
+}
+#win_note:disabled {
+	background-color: white;
+}
+
+#modal_cancel {
+	display: inline;
+    line-height: 36px;
+    float: right;
+    background-color: red;
+    width: 30px;
+}
+#modal_cancel:hover {
+	cursor:pointer;
+}
+
+#modal {
+	display: none;
+}
+
+.cp_hr01 {
+	border-width: 0 0 2px 0;
+	border-style: solid;
+	border-color: #ff6f00;
+}
+
+.cp_hr02 {
+	border-width: 3px 0 0 0;
+	border-style: dotted;
+	border-color: #7aff00;
+}
